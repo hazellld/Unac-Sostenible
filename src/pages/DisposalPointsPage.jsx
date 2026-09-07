@@ -24,14 +24,16 @@ const createIcon = (color) => {
 
 const getMarkerIcon = (type) => {
   switch (type) {
+    case 'Aprovechables': return createIcon('blue');
     case 'Orgánicos': return createIcon('green');
-    case 'Inorgánicos Reciclables': return createIcon('blue');
-    case 'Peligrosos/RAEE': return createIcon('red');
+    case 'No aprovechables': return createIcon('grey');
+    case 'Pilas y baterías': return createIcon('red');
+    case 'Electrónicos': return createIcon('orange');
     default: return createIcon('black');
   }
 };
 
-export default function PuntosPage() {
+export default function DisposalPointsPage() {
   const [points, setPoints] = useState([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('Todos');
@@ -64,7 +66,7 @@ export default function PuntosPage() {
       {/* Selector de Tipo de Mapa y Filtros de Categorías */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-          {['Todos', 'Orgánicos', 'Inorgánicos Reciclables', 'Peligrosos/RAEE', 'No Aprovechables'].map((cat) => (
+          {['Todos', 'Aprovechables', 'Orgánicos', 'No aprovechables', 'Pilas y baterías', 'Electrónicos'].map((cat) => ( 
             <button
               key={cat}
               onClick={() => setFilter(cat)}

@@ -1,0 +1,32 @@
+.pillar-card {
+  background-color: #F8FAF9;
+  border: 1px solid #D8F3DC;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(27, 67, 50, 0.1);
+}
+
+.pillar-card__icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.pillar-card__title {
+  font-size: 1.1rem;
+  color: #1B4332;
+  margin: 0 0 0.5rem;
+}
+
+.pillar-card__text {
+  font-size: 0.9rem;
+  color: #1F2937;
+  line-height: 1.5;
+  margin: 0;
+}

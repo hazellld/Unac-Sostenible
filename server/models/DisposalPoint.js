@@ -8,7 +8,7 @@ const disposalPointSchema = new mongoose.Schema(
     },
     type: { 
       type: String, 
-      enum: ['Orgánicos', 'Inorgánicos Reciclables', 'Peligrosos/RAEE', 'No Aprovechables'], 
+      enum: ['Aprovechables', 'Orgánicos', 'No aprovechables', 'Pilas y baterías', 'Electrónicos'], 
       required: [true, 'El tipo de residuo es obligatorio'] 
     },
     description: { 

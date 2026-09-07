@@ -1,0 +1,18 @@
+.about {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.about__title {
+  font-size: 1.6rem;
+  color: #1B4332;
+  margin: 0 0 1rem;
+}
+
+.about__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #1F2937;
+}

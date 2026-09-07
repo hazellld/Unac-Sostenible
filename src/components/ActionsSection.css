@@ -1,0 +1,25 @@
+.actions {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #F8FAF9;
+}
+
+.actions__title {
+  font-size: 1.6rem;
+  color: #1B4332;
+  margin: 0 0 2rem;
+}
+
+.actions__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .actions__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,33 @@
+.cta {
+  text-align: center;
+  padding: 3.5rem 2rem;
+  background-color: #1B4332;
+  color: #F8FAF9;
+}
+
+.cta__title {
+  font-size: 1.6rem;
+  margin: 0 0 0.75rem;
+}
+
+.cta__text {
+  font-size: 1rem;
+  color: #D8F3DC;
+  max-width: 34rem;
+  margin: 0 auto 1.75rem;
+}
+
+.cta__button {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  border-radius: 999px;
+  background-color: #52B788;
+  color: #1B4332;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.cta__button:hover {
+  transform: translateY(-2px);
+}

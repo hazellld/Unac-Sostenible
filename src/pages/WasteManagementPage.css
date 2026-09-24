@@ -1,0 +1,111 @@
+.waste-management {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* Encabezado */
+
+.waste-management__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.waste-management__title {
+  font-size: 2rem;
+  color: #1b4332;
+  margin: 0 0 1rem;
+}
+
+.waste-management__description {
+  max-width: 45rem;
+  margin: 0 auto;
+  color: #4a5759;
+  line-height: 1.6;
+}
+
+/* Tarjetas de información */
+
+.waste-management__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.waste-management__card {
+  padding: 1.5rem;
+  background-color: #f8faf9;
+  border-radius: 12px;
+  border: 1px solid #d8e5dd;
+}
+
+.waste-management__card-title {
+  margin: 0 0 0.75rem;
+  color: #1b4332;
+  font-size: 1.2rem;
+}
+
+.waste-management__card-text {
+  margin: 0;
+  color: #4a5759;
+  line-height: 1.6;
+}
+
+/* Sección de acciones */
+
+.waste-management__actions {
+  padding: 2rem;
+  background-color: #f8faf9;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.waste-management__actions-title {
+  margin: 0 0 1rem;
+  color: #1b4332;
+  font-size: 1.5rem;
+}
+
+.waste-management__actions-text {
+  margin: 0 auto 1.5rem;
+  max-width: 40rem;
+  color: #4a5759;
+  line-height: 1.6;
+}
+
+/* Botones */
+
+.waste-management__button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2d6a4f;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.waste-management__button:hover {
+  background-color: #1b4332;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .waste-management {
+    padding: 2rem 1rem;
+  }
+
+  .waste-management__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .waste-management__title {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,35 @@
+.disposal-cta {
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #d8f3dc;
+  border-radius: 12px;
+}
+
+.disposal-cta h2 {
+  margin: 0 0 1rem;
+  color: #1b4332;
+  font-size: 1.6rem;
+}
+
+.disposal-cta p {
+  margin: 0 auto 1.5rem;
+  max-width: 40rem;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.disposal-cta__button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2d6a4f;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.disposal-cta__button:hover {
+  background-color: #1b4332;
+}

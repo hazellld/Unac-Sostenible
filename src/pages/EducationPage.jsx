@@ -278,6 +278,24 @@ function EducationPage() {
   </div>
 </section>
 
+<section className="education-page__actions">
+  <h2 className="education-page__section-title">
+    Aprende a separar correctamente
+  </h2>
+
+  <p className="education-page__description">
+    Conocer los tipos de residuos es el primer paso para realizar
+    una separación adecuada dentro de la universidad.
+  </p>
+
+  <a
+    href="/residuos"
+    className="education-page__button"
+  >
+    Ver gestión de residuos
+  </a>
+</section>
+
     </main>
   );
 }

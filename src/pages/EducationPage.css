@@ -68,7 +68,9 @@
 .education-page__tips {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 1.5rem;
+
+  align-items: start;
 }
 
 .education-page__tip {

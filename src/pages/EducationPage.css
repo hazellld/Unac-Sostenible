@@ -1,0 +1,146 @@
+.education-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  color: #1b4332;
+}
+
+.education-page__header {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto 60px;
+}
+
+.education-page__title {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.education-page__description {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #4a5750;
+}
+
+.education-page__section {
+  margin-bottom: 60px;
+}
+
+.education-page__section-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #1b4332;
+}
+
+.education-page__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.education-page__card {
+  background-color: #ffffff;
+  border: 1px solid #d8e3dc;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 4px 12px rgba(27, 67, 50, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.education-page__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(27, 67, 50, 0.12);
+}
+
+.education-page__card-title {
+  font-size: 21px;
+  margin-bottom: 15px;
+  color: #1b4332;
+}
+
+.education-page__card-text {
+  color: #4a5750;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.education-page__tips {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+  align-items: start;
+}
+
+.education-page__tip {
+  background-color: #f1f6f3;
+  border-left: 5px solid #1b4332;
+  border-radius: 10px;
+  padding: 22px;
+}
+
+.education-page__tip strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #1b4332;
+}
+
+.education-page__tip p {
+  margin: 0;
+  line-height: 1.6;
+  color: #4a5750;
+}
+
+.education-page__actions {
+  text-align: center;
+  background-color: #f1f6f3;
+  border-radius: 20px;
+  padding: 45px 30px;
+}
+
+.education-page__actions .education-page__description {
+  max-width: 700px;
+  margin: 0 auto 25px;
+}
+
+.education-page__button {
+  display: inline-block;
+  background-color: #1b4332;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.education-page__button:hover {
+  background-color: #143326;
+}
+
+@media (max-width: 900px) {
+  .education-page__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .education-page {
+    padding: 40px 20px;
+  }
+
+  .education-page__title {
+    font-size: 32px;
+  }
+
+  .education-page__section-title {
+    font-size: 25px;
+  }
+
+  .education-page__grid,
+  .education-page__tips {
+    grid-template-columns: 1fr;
+  }
+}
